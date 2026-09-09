@@ -1,9 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.37614.0 d17.14
+VisualStudioVersion = 17.14.37614.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursividad.UI.Consola", "Recursividad.UI.Consola\Recursividad.UI.Consola.csproj", "{044231E5-3906-4CD0-B39E-A593350EDD03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursividad.Logica", "Recursividad.Logica\Recursividad.Logica.csproj", "{AA863780-C0ED-46DF-BA16-BF7C5F712889}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{044231E5-3906-4CD0-B39E-A593350EDD03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{044231E5-3906-4CD0-B39E-A593350EDD03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{044231E5-3906-4CD0-B39E-A593350EDD03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{044231E5-3906-4CD0-B39E-A593350EDD03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA863780-C0ED-46DF-BA16-BF7C5F712889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA863780-C0ED-46DF-BA16-BF7C5F712889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA863780-C0ED-46DF-BA16-BF7C5F712889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA863780-C0ED-46DF-BA16-BF7C5F712889}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
